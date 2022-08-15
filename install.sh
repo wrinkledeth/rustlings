@@ -141,7 +141,7 @@ git clone -q https://github.com/rust-lang/rustlings "$Path"
 
 cd "$Path"
 
-Version=$(curl -s https://api.github.com/repos/rust-lang/rustlings/releases/latest | ${PY} -c "import json,sys;obj=json.load(sys.stdin);print(obj['tag_name']);")
+Version=$(curl -s https://api.github.com/repos/wrinkledeth/rustlings/releases/latest | ${PY} -c "import json,sys;obj=json.load(sys.stdin);print(obj['tag_name']);")
 CargoBin="${CARGO_HOME:-$HOME/.cargo}/bin"
 
 if [[ -z ${Version} ]]

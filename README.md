@@ -1,4 +1,4 @@
-# rustlings 🦀❤️
+# rustlings 🦀❤️ (forked repo to track my progress)
 
 Greetings and welcome to `rustlings`. This project contains small exercises to get you used to reading and writing Rust code. This includes reading and responding to compiler messages!
 
@@ -21,9 +21,8 @@ You will need to have Rust installed. You can get it by visiting https://rustup.
 Just run:
 
 ```bash
-curl -L https://raw.githubusercontent.com/rust-lang/rustlings/main/install.sh | bash
-# Or if you want it to be installed to a different path:
-curl -L https://raw.githubusercontent.com/rust-lang/rustlings/main/install.sh | bash -s mypath/
+curl -L https://raw.githubusercontent.com/wrinkledeth/rustlings/main/install.sh | bash
+
 ```
 
 This will install Rustlings and give you access to the `rustlings` command. Run it to get started!
